@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>MyBlog</title>
   
-  
+  <subtitle>记录生活中的点点滴滴</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zzuxzy.cn/"/>
   <updated>2019-07-26T10:13:21.430Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zzuxzy.cn/</id>
   
   <author>
     <name>xzy</name>
@@ -18,18 +18,18 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2019/07/26/%E5%85%B3%E4%BA%8EHexo%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/"/>
-    <id>http://yoursite.com/2019/07/26/关于Hexo的安装和配置总结/</id>
+    <link href="http://zzuxzy.cn/2019/07/26/%E5%85%B3%E4%BA%8EHexo%E7%9A%84%E5%AE%89%E8%A3%85%E5%92%8C%E9%85%8D%E7%BD%AE%E6%80%BB%E7%BB%93/"/>
+    <id>http://zzuxzy.cn/2019/07/26/关于Hexo的安装和配置总结/</id>
     <published>2019-07-26T10:12:19.380Z</published>
     <updated>2019-07-26T10:13:21.430Z</updated>
     
-    <content type="html"><![CDATA[<p>title: this is my first blog<br>这两天花了一点时间使用Hexo给自己搭建了一个博客，有了一点小小的总结，也想把这篇文章放到自己的博客上。这里放出我的<a href="http://zzuxzy.cn" target="_blank" rel="noopener">博客</a>，里面内容和具体东西还没有搭建好。</p><ol><li><p>关于Hexo的配置和安装我参考了<a href="https://blog.csdn.net/gdutxiaoxu/article/details/53576018" target="_blank" rel="noopener">https://blog.csdn.net/gdutxiaoxu/article/details/53576018</a>和<a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener">https://blog.csdn.net/sinat_37781304/article/details/82729029</a>两位博主的安装经验。两位博主的教程都十分详细，大家可以放心参考。具体内容可以直接根据传送门到达两位博主的博客里去细看，这里我就不在浪费篇幅去解释了。</p></li><li><p>关于域名问题。根据上述两位博主的过程建立好的博客需要一个个人域名，否则会是name(github名字).github.io,会比较难受所以建议去购买一个个人域名，价位方面不是很贵，这里我使用的是阿里云的.cn域名。</p></li><li><p>关于主题问题，两位博主的安装过程也都介绍了关于主题的问题。这里我使用的是Next主题，也是一个比较火的主题，关于主题具体内容更改和配置的方法我是参考<a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">https://blog.csdn.net/nightmare_dimple/article/details/86661502</a><br>这位博主的介绍十分详细，里面包含了大部分关于Next主题内容更改的一些方法，想要自定义更改一些内容可以去看一下，当然如果你足够强，能够看懂js的话，可以直接去看<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">官方</a>的一些文档。</p></li><li><p>这篇文章是对这次使用Hexo搭建自己博客的一个小总结，也当作博客上的一个内容。</p><p>继续加油！！！</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>title: this is my first blog<br>这两天花了一点时间使用Hexo给自己搭建了一个博客，有了一点小小的总结，也想把这篇文章放到自己的博客上。这里放出我的<a href="http://zzuxzy.cn">博客</a>，里面内容和具体东西还没有搭建好。</p><ol><li><p>关于Hexo的配置和安装我参考了<a href="https://blog.csdn.net/gdutxiaoxu/article/details/53576018" target="_blank" rel="noopener">https://blog.csdn.net/gdutxiaoxu/article/details/53576018</a>和<a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener">https://blog.csdn.net/sinat_37781304/article/details/82729029</a>两位博主的安装经验。两位博主的教程都十分详细，大家可以放心参考。具体内容可以直接根据传送门到达两位博主的博客里去细看，这里我就不在浪费篇幅去解释了。</p></li><li><p>关于域名问题。根据上述两位博主的过程建立好的博客需要一个个人域名，否则会是name(github名字).github.io,会比较难受所以建议去购买一个个人域名，价位方面不是很贵，这里我使用的是阿里云的.cn域名。</p></li><li><p>关于主题问题，两位博主的安装过程也都介绍了关于主题的问题。这里我使用的是Next主题，也是一个比较火的主题，关于主题具体内容更改和配置的方法我是参考<a href="https://blog.csdn.net/nightmare_dimple/article/details/86661502" target="_blank" rel="noopener">https://blog.csdn.net/nightmare_dimple/article/details/86661502</a><br>这位博主的介绍十分详细，里面包含了大部分关于Next主题内容更改的一些方法，想要自定义更改一些内容可以去看一下，当然如果你足够强，能够看懂js的话，可以直接去看<a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">官方</a>的一些文档。</p></li><li><p>这篇文章是对这次使用Hexo搭建自己博客的一个小总结，也当作博客上的一个内容。</p><p>继续加油！！！</p></li></ol>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;title: this is my first blog&lt;br&gt;这两天花了一点时间使用Hexo给自己搭建了一个博客，有了一点小小的总结，也想把这篇文章放到自己的博客上。这里放出我的&lt;a href=&quot;http://zzuxzy.cn&quot; target=&quot;_blank&quot; rel=
+        &lt;p&gt;title: this is my first blog&lt;br&gt;这两天花了一点时间使用Hexo给自己搭建了一个博客，有了一点小小的总结，也想把这篇文章放到自己的博客上。这里放出我的&lt;a href=&quot;http://zzuxzy.cn&quot;&gt;博客&lt;/a&gt;，里面内容和具体东西还没有搭
       
     
     </summary>
@@ -39,8 +39,8 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2019/07/25/%E5%85%B3%E4%BA%8EUbuntu%E5%92%8CWindows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%89%E8%A3%85%EF%BC%88%E6%95%B4%E7%90%86%EF%BC%89/"/>
-    <id>http://yoursite.com/2019/07/25/关于Ubuntu和Windows10双系统的安装（整理）/</id>
+    <link href="http://zzuxzy.cn/2019/07/25/%E5%85%B3%E4%BA%8EUbuntu%E5%92%8CWindows10%E5%8F%8C%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%AE%89%E8%A3%85%EF%BC%88%E6%95%B4%E7%90%86%EF%BC%89/"/>
+    <id>http://zzuxzy.cn/2019/07/25/关于Ubuntu和Windows10双系统的安装（整理）/</id>
     <published>2019-07-25T07:12:46.442Z</published>
     <updated>2019-07-26T10:13:16.490Z</updated>
     
@@ -62,8 +62,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/07/24/hello-world/"/>
-    <id>http://yoursite.com/2019/07/24/hello-world/</id>
+    <link href="http://zzuxzy.cn/2019/07/24/hello-world/"/>
+    <id>http://zzuxzy.cn/2019/07/24/hello-world/</id>
     <published>2019-07-24T13:12:47.082Z</published>
     <updated>2019-07-24T13:12:47.082Z</updated>
     
