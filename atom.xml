@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zzuxzy.cn/"/>
-  <updated>2019-07-27T03:16:39.189Z</updated>
+  <updated>2019-09-27T15:25:32.352Z</updated>
   <id>http://zzuxzy.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://zzuxzy.cn/2019/09/27/%E5%85%B3%E4%BA%8EOpencv%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/"/>
+    <id>http://zzuxzy.cn/2019/09/27/关于Opencv学习（1）/</id>
+    <published>2019-09-27T15:26:03.017Z</published>
+    <updated>2019-09-27T15:25:32.352Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关于Opencv学习的阶段性总结"><a href="#关于Opencv学习的阶段性总结" class="headerlink" title="关于Opencv学习的阶段性总结"></a>关于Opencv学习的阶段性总结</h2><ol><li>配置Opencv环境，这里我是在Windows 10 系统上，通过VS2019学习的Opencv，这里我参考的是这位博主的的安装过程，过程中没有出现什么特别大的问题。<a href="https://blog.csdn.net/weixin_42274148/article/details/85321091" target="_blank" rel="noopener">https://blog.csdn.net/weixin_42274148/article/details/85321091</a></li></ol><ol start="2"><li><p>关于使用的编程语言，这里我学习使用的是C++语言，在大一学习C语言的基础上，在暑假看了一些关于C++的一些知识，譬如类和对象什么的。还有一些C++的一些标准库。这里关于C++的学习我就不在多写了。为什么不用Python，因为其他人用的都是C++，然后我们最后要完成一个项目，所以就使用C++了，而且在C语言的基础上，C++的学习相比于只接触一点的Python快很多。</p></li><li><p>关于Opencv的学习，这里主要写一下基本内容吧。<br>1.Mat类型数据，这个是和C语言中int类型差不多的一个数据类型。Mat是一个矩阵数据类型，它是由矩阵构成，这里计算机读入的图片是可以细分成一个一个的矩阵，然后对每一个像素点进行处理。<br>2.输入输出，imread，imshow。这两个函数就好像C语言中的scanf和Printf，我觉得可以这样理解：</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```cpp</span><br><span class="line">imread读入，使用方法可以参考C语言的文件的使用，</span><br><span class="line">imread（<span class="string">"文件名称"</span>）<span class="comment">//这里如果在项目目录中可以直接写名称，要是在其他路径，需要写上存储路径。imshow（），在一个窗口输出图片。</span></span><br><span class="line">具体使用，imshow（<span class="string">"窗口名称"</span>，Mat类型变量名称）。</span><br><span class="line">这里窗口名称需要提前nameWindows(<span class="string">"窗口名称"</span>)定义一下。</span><br></pre></td></tr></table></figure></li></ol><pre><code>    3.一些基本绘图函数```cpp用OpenCV的函数 line 绘 直线line( img,        start,        end,        Scalar( 0, 0, 0 ),        thickness,        lineType );}    用OpenCV的函数 ellipse 绘 椭圆     ellipse( img,               Point( w/2.0, w/2.0 ),               Size( w/4.0, w/16.0 ),               angle,               0,               360,               Scalar( 255, 0, 0 ),               thickness,               lineType );    }    用OpenCV的函数 rectangle 绘 矩形    rectangle( rook_image,               Point( 0, 7*w/8.0 ),               Point( w, w),               Scalar( 0, 255, 255 ),               -1,               8 );    用OpenCV的函数 circle 绘 圆 circle( img,         center,         w/32.0,         Scalar( 0, 0, 255 ),         thickness,         lineType );}    用OpenCV的函数 fillPoly 绘 填充的多边形fillPoly( img,            ppt,            npt,            1,            Scalar( 255, 255, 255 ),            lineType ); }</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;关于Opencv学习的阶段性总结&quot;&gt;&lt;a href=&quot;#关于Opencv学习的阶段性总结&quot; class=&quot;headerlink&quot; title=&quot;关于Opencv学习的阶段性总结&quot;&gt;&lt;/a&gt;关于Opencv学习的阶段性总结&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;配置Opencv
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>关于Hexo的安装和配置总结</title>
