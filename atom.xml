@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zzuxzy.top/"/>
-  <updated>2019-09-29T16:36:10.711Z</updated>
+  <updated>2020-11-22T16:19:14.418Z</updated>
   <id>http://zzuxzy.top/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://zzuxzy.top/2020/11/23/python+opencv%20%E5%AD%A6%E4%B9%A0%EF%BC%881%EF%BC%89/"/>
+    <id>http://zzuxzy.top/2020/11/23/python+opencv 学习（1）/</id>
+    <published>2020-11-22T16:18:26.117Z</published>
+    <updated>2020-11-22T16:19:14.418Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="title-python-opencv-学习（1）"><a href="#title-python-opencv-学习（1）" class="headerlink" title="title:python+opencv 学习（1）"></a>title:python+opencv 学习（1）</h2><p>1.安装pycharm<br>    pycharm是一个很好用的python编辑器。并且pycharm带有相应的终端部分，十分方便。<br>    安装就直接去官网下载即可<a href="https://www.jetbrains.com/" target="_blank" rel="noopener">https://www.jetbrains.com/pycharm/</a><br>   <img src="http://www.s3tu.com/images/2020/11/22/24c4ac.png" alt="pycharm官网"><br><img src="http://www.s3tu.com/images/2020/11/22/30e288.png" alt="下载界面"></p><p>记住要下载community版本，社区版的进行学生认知是可以免费使用的，专业版的是付费的。直接点击下载就行，然后安装，下一步下一步就行，如果想要改一些设置，自己去百度搜索相关的操作</p><p>下载完成之后，打开创建新的项目，如下图。可以点击右上角绿色三角，测试是否能够正常使用。<br><img src="http://www.s3tu.com/images/2020/11/22/417611.png" alt="此处输入图片的描述"></p><p>部分人安装之后可能无法正常使用是因为电脑上没有python的环境。如果没有python环境可以直接百度搜索python下载，2.x版本和3.x版本都可以（目前没有测试某些版本是否有bug）<br>2.配置基础的opencv环境。<br>    安装完pycharm之后，就可以正常进行基本的python编程，想要进行opencv相关的编程需要安装一些库。<br>如numpy和opencv-python(只安装opencv-python好像是直接带numpy的)。在pycharm下面的终端（Terminal）里面输入</p><pre><code>pip install numpypip install opencv-python</code></pre><p><img src="http://www.s3tu.com/images/2020/11/22/5506ca.png" alt="此处输入图片的描述"></p><p>直接输入的话，由于pycharm使用的是国外的源，下载速度会十分缓慢。因此采取对pycharm终端pip命令的换源操作。C:\Users\自己的用户名\ 新建pip文件夹，在文件夹中新建pip.ini文件，输入以下内容并保存。</p><pre><code>[global]index-url = https://pypi.tuna.tsinghua.edu.cn/simpletrusted-host = mirrors.aliyun.comdisable-pip-version-check = truetimeout = 120[list]format = columns</code></pre><p> <img src="http://www.s3tu.com/images/2020/11/22/6434d0.png" alt="此处输入图片的描述"></p><p>把上面的代码粘贴进去即可。</p><p>这样运行<code>pip install xxxx</code>的时候，下载速度就会快很多。</p><p>安装完之后输入测试代码检测opencv环境是否安装成功</p><pre><code>import cv2capture = cv2.VideoCapture(0)while True:    ret, frame = capture.read()    frame = cv2.flip(frame,1)   #镜像操作    cv2.imshow(&quot;video&quot;, frame)    key = cv2.waitKey(50)    #print(key)q    if key  == ord(&apos;q&apos;):  #判断是哪一个键按下        breakcv2.destroyAllWindows()</code></pre><p>  这时候如果我们开始使用的是直接输入<code>pip install opencv-python</code>,即使开始输入<code>pip install numpy</code>也会报错，因为自动安装的版本会比较高。则会报错，具体错误忘记截图了，错误信息应该是无法正常调用cv2，在网上查找之后，尝试各种方法，最后将numpy降了一个版本解决了问题，输入<code>pip install numpy==1.19.3</code><br>  测试成功之后如图，如果你能看到一张好看的人脸，那证明你的代码就成功了，然后就可以开始python和opencv的学习了。</p><p>  <img src="http://www.s3tu.com/images/2020/11/22/7010bd.png" alt="此处输入图片的描述"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;title-python-opencv-学习（1）&quot;&gt;&lt;a href=&quot;#title-python-opencv-学习（1）&quot; class=&quot;headerlink&quot; title=&quot;title:python+opencv 学习（1）&quot;&gt;&lt;/a&gt;title:pytho
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title> 关于Opencv学习的阶段性总结 （1）</title>
